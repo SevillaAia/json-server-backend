@@ -1,33 +1,149 @@
 {
-  "projects": [
+  "users": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "username": "jane_doe",
+      "password": "password123"
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "username": "john_smith",
+      "password": "mypassword"
     }
   ],
-  "tasks": [
+  "products": [
+    {},
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "name": "Velvet Matte Foundation",
+      "category": "Foundation",
+      "price": 24.99,
+      "shadeCount": 18,
+      "description": "Lightweight matte foundation with buildable coverage.",
+      "image": "/images/foundation-matte.jpg",
+      "rating": 4.6,
+      "inStock": true
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "name": "Hydra Glow Concealer",
+      "category": "Concelar",
+      "price": 14.99,
+      "shadeCount": 12,
+      "description": "Hydrating concealer that brightens and smooths.",
+      "image": "/images/concealer-glow.jpg",
+      "rating": 4.5,
+      "inStock": true
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "name": "Silky Pressed Powder",
+      "category": "Powder",
+      "price": 16.99,
+      "shadeCount": 6,
+      "description": "Sets makeup with a soft, natural finish.",
+      "image": "/images/pressed-powder.jpg",
+      "rating": 4.3,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Rose Flush Blush",
+      "category": "Blush",
+      "price": 12.99,
+      "shadeCount": 5,
+      "description": "Blendable blush for a healthy pop of color.",
+      "image": "/images/blush-rose.jpg",
+      "rating": 4.7,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Sunlit Bronzer",
+      "category": "Bronzer",
+      "price": 18.99,
+      "shadeCount": 4,
+      "description": "Warm bronzer for a natural sun-kissed look.",
+      "image": "/images/bronzer-sunlit.jpg",
+      "rating": 4.4,
+      "inStock": false
+    },
+    {
+      "id": 6,
+      "name": "Luminous Highlighter",
+      "category": "Highlighter",
+      "price": 15.99,
+      "shadeCount": 3,
+      "description": "Adds a soft, radiant glow to high points.",
+      "image": "/images/highlighter-luminous.jpg",
+      "rating": 4.8,
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Everyday Eyeshadow Palette",
+      "category": "Eyeshadow",
+      "price": 29.99,
+      "shadeCount": 12,
+      "description": "Neutral shades perfect for daily looks.",
+      "image": "/images/eyeshadow-everyday.jpg",
+      "rating": 4.9,
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Precision Liquid Eyeliner",
+      "category": "Eyeliner",
+      "price": 10.99,
+      "shadeCount": 2,
+      "description": "Smudge-resistant liner with ultra-fine tip.",
+      "image": "/images/eyeliner-liquid.jpg",
+      "rating": 4.5,
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Volume Boost Mascara",
+      "category": "Mascara",
+      "price": 13.99,
+      "shadeCount": 2,
+      "description": "Builds volume without clumping.",
+      "image": "/images/mascara-volume.jpg",
+      "rating": 4.6,
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Creamy Nude Lipstick",
+      "category": "Lipstick",
+      "price": 11.99,
+      "shadeCount": 8,
+      "description": "Smooth, moisturizing lipstick with rich color.",
+      "image": "/images/lipstick-nude.jpg",
+      "rating": 4.4,
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Gloss Pop Lip Gloss",
+      "category": "Lip Gloss",
+      "price": 9.99,
+      "shadeCount": 6,
+      "description": "Non-sticky gloss with a high-shine finish.",
+      "image": "/images/lipgloss-pop.jpg",
+      "rating": 4.2,
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Makeup Setting Spray",
+      "category": "Setting Spray",
+      "price": 17.99,
+      "shadeCount": 1,
+      "description": "Locks makeup in place all day.",
+      "image": "/images/setting-spray.jpg",
+      "rating": 4.6,
+      "inStock": true
     }
   ]
 }
