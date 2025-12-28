@@ -3,147 +3,285 @@
     {
       "id": 1,
       "username": "jane_doe",
-      "password": "password123"
+      "email": "jane@example.com",
+      "password": 1234567,
+      "createdat": "2026-01-01",
+      "role": "user"
     },
     {
       "id": 2,
       "username": "john_smith",
-      "password": "mypassword"
+      "email": "john@example.com",
+      "password": 7654321,
+      "createdAt": "2026-01-01",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "joe_schmo",
+      "email": "joe@example.com",
+      "password": 13579,
+      "createdAt": "2026-01-01",
+      "role": "user"
+    }
+  ],
+  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Foundation"
+    },
+    {
+      "id": 2,
+      "name": "Concealer"
+    },
+    {
+      "id": 3,
+      "name": "Powder"
+    },
+    {
+      "id": 4,
+      "name": "Blush"
+    },
+    {
+      "id": 5,
+      "name": "Bronzer"
+    },
+    {
+      "id": 6,
+      "name": "Highlighter"
+    },
+    {
+      "id": 7,
+      "name": "Eyeshadow"
+    },
+    {
+      "id": 8,
+      "name": "Eyeliner"
+    },
+    {
+      "id": 9,
+      "name": "Mascara"
+    },
+    {
+      "id": 10,
+      "name": "Lipstick"
+    },
+    {
+      "id": 11,
+      "name": "LipGloss"
+    },
+    {
+      "id": 12,
+      "name": "SettingSpray"
     }
   ],
   "products": [
-    {},
     {
       "id": 1,
       "name": "Velvet Matte Foundation",
-      "category": "Foundation",
+      "categoryId": 1,
+      "brand": "SoChic",
       "price": 24.99,
       "shadeCount": 18,
       "description": "Lightweight matte foundation with buildable coverage.",
-      "image": "/images/foundation-matte.jpg",
       "rating": 4.6,
-      "inStock": true
+      "stockCount": 40,
+      "inStock": true,
+      "createdAt": "2025-01-05"
     },
     {
       "id": 2,
       "name": "Hydra Glow Concealer",
-      "category": "Concelar",
+      "categoryId": 2,
+      "brand": "SoChic",
       "price": 14.99,
       "shadeCount": 12,
       "description": "Hydrating concealer that brightens and smooths.",
-      "image": "/images/concealer-glow.jpg",
       "rating": 4.5,
-      "inStock": true
+      "stockCount": 55,
+      "inStock": true,
+      "createdAt": "2025-01-06"
     },
     {
       "id": 3,
       "name": "Silky Pressed Powder",
-      "category": "Powder",
+      "categoryId": 3,
+      "brand": "Sochic",
       "price": 16.99,
       "shadeCount": 6,
       "description": "Sets makeup with a soft, natural finish.",
-      "image": "/images/pressed-powder.jpg",
       "rating": 4.3,
-      "inStock": true
+      "stockCount": 30,
+      "inStock": true,
+      "createdAt": "2025-01-07"
     },
     {
       "id": 4,
       "name": "Rose Flush Blush",
-      "category": "Blush",
+      "categoryId": 4,
+      "brand": "Sochic",
       "price": 12.99,
       "shadeCount": 5,
       "description": "Blendable blush for a healthy pop of color.",
-      "image": "/images/blush-rose.jpg",
       "rating": 4.7,
-      "inStock": true
+      "stockCount": 36,
+      "inStock": true,
+      "createdAt": "2025-01-07"
     },
     {
       "id": 5,
       "name": "Sunlit Bronzer",
-      "category": "Bronzer",
+      "categoryId": 5,
+      "brand": "Sochic",
       "price": 18.99,
       "shadeCount": 4,
       "description": "Warm bronzer for a natural sun-kissed look.",
-      "image": "/images/bronzer-sunlit.jpg",
       "rating": 4.4,
-      "inStock": false
+      "stockCount": 16,
+      "inStock": true,
+      "createdAt": "2025-01-08"
     },
     {
       "id": 6,
       "name": "Luminous Highlighter",
-      "category": "Highlighter",
+      "categoryId": 6,
+      "brand": "Sochic",
       "price": 15.99,
       "shadeCount": 3,
       "description": "Adds a soft, radiant glow to high points.",
-      "image": "/images/highlighter-luminous.jpg",
       "rating": 4.8,
-      "inStock": true
+      "stockCount": 6,
+      "inStock": true,
+      "createdAt": "2025-01-08"
     },
     {
       "id": 7,
       "name": "Everyday Eyeshadow Palette",
-      "category": "Eyeshadow",
+      "categoryId": 7,
+      "brand": "Sochic",
       "price": 29.99,
       "shadeCount": 12,
       "description": "Neutral shades perfect for daily looks.",
-      "image": "/images/eyeshadow-everyday.jpg",
       "rating": 4.9,
-      "inStock": true
+      "stockCount": 38,
+      "inStock": true,
+      "createdAt": "2025-01-09"
     },
     {
       "id": 8,
       "name": "Precision Liquid Eyeliner",
-      "category": "Eyeliner",
+      "categoryId": 8,
+      "brand": "Sochic",
       "price": 10.99,
       "shadeCount": 2,
       "description": "Smudge-resistant liner with ultra-fine tip.",
-      "image": "/images/eyeliner-liquid.jpg",
       "rating": 4.5,
-      "inStock": true
+      "stockCount": 15,
+      "inStock": true,
+      "createdAt": "2025-01-09"
     },
     {
       "id": 9,
       "name": "Volume Boost Mascara",
-      "category": "Mascara",
+      "categoryId": 9,
+      "brand": "Sochic",
       "price": 13.99,
       "shadeCount": 2,
       "description": "Builds volume without clumping.",
-      "image": "/images/mascara-volume.jpg",
       "rating": 4.6,
-      "inStock": true
+      "stockCount": 22,
+      "inStock": true,
+      "createdAt": "2025-01-10"
     },
     {
       "id": 10,
       "name": "Creamy Nude Lipstick",
-      "category": "Lipstick",
+      "categoryId": 10,
+      "brand": "Sochic",
       "price": 11.99,
       "shadeCount": 8,
       "description": "Smooth, moisturizing lipstick with rich color.",
-      "image": "/images/lipstick-nude.jpg",
       "rating": 4.4,
-      "inStock": true
+      "stockCount": 8,
+      "inStock": true,
+      "createdAt": "2025-01-10"
     },
     {
       "id": 11,
       "name": "Gloss Pop Lip Gloss",
-      "category": "Lip Gloss",
+      "categoryId": 10,
+      "brand": "Sochic",
       "price": 9.99,
       "shadeCount": 6,
       "description": "Non-sticky gloss with a high-shine finish.",
-      "image": "/images/lipgloss-pop.jpg",
       "rating": 4.2,
-      "inStock": true
+      "stockCount": 19,
+      "inStock": true,
+      "createdAt": "2025-01-11"
     },
     {
       "id": 12,
       "name": "Makeup Setting Spray",
-      "category": "Setting Spray",
+      "categoryId": 10,
+      "brand": "Sochic",
       "price": 17.99,
       "shadeCount": 1,
       "description": "Locks makeup in place all day.",
-      "image": "/images/setting-spray.jpg",
       "rating": 4.6,
-      "inStock": true
+      "stockCount": 24,
+      "inStock": true,
+      "createdAt": "2025-01-11"
+    }
+  ],
+
+  
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        { "productId": 1, 
+          "quantity": 1 
+        },
+        { "productId": 3, 
+          "quantity": 2 
+        },
+        { "productId": 7, 
+        "quantity": 1 }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        { "productId": 10, 
+          "quantity": 3 
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "items": [] 
+    }
+  ],
+
+  "wishlists": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productIds": [1, 2, 8]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productIds": [12]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "productIds": [] 
     }
   ]
 }
