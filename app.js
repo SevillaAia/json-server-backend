@@ -19,6 +19,18 @@ server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   next();
 });
+
+server.get("/products/category/:categoryId", (req, res) => {
+  const categoryId = Number(req.params.categoryId);
+
+  const db = router.db;
+  const products = db.get("products").value();
+
+  res.json(
+    products.filter(p => p.categoryId === categoryId)
+  );
+});
+
 server.use(router);
 
 server.listen(PORT, () => {

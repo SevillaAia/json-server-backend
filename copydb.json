@@ -93,7 +93,7 @@
       "shadeCount": 20,
       "description": "Matte foundation with smooth, long-lasting coverage.",
       "rating": 4.6,
-      "stockCount": 43,
+      "stockCount": 45,
       "inStock": true,
       "image": "/images/sochic/foundation_silk_matte.jpg",
       "createdAt": "2025-01-11"
@@ -107,7 +107,7 @@
       "shadeCount": 18,
       "description": "Hydrating foundation for radiant skin.",
       "rating": 4.7,
-      "stockCount": 37,
+      "stockCount": 38,
       "inStock": true,
       "image": "/images/sochic/foundation_hydra_glow.jpg",
       "createdAt": "2025-01-11"
@@ -121,7 +121,7 @@
       "shadeCount": 16,
       "description": "Soft velvet finish with buildable coverage.",
       "rating": 4.5,
-      "stockCount": 29,
+      "stockCount": 30,
       "inStock": true,
       "image": "/images/sochic/foundation_velvet_touch.jpg",
       "createdAt": "2025-01-11"
@@ -135,7 +135,7 @@
       "shadeCount": 14,
       "description": "Lightweight foundation for everyday wear.",
       "rating": 4.4,
-      "stockCount": 27,
+      "stockCount": 28,
       "inStock": true,
       "image": "/images/sochic/foundation_air_light.jpg",
       "createdAt": "2025-01-11"
@@ -149,7 +149,7 @@
       "shadeCount": 22,
       "description": "Professional full-coverage foundation.",
       "rating": 4.8,
-      "stockCount": 34,
+      "stockCount": 35,
       "inStock": true,
       "image": "/images/sochic/foundation_full_cover.jpg",
       "createdAt": "2025-01-11"
@@ -1767,19 +1767,9 @@
   ],
   "carts": [
     {
-      "name": "Matte Control Powder",
-      "price": 17.99,
+      "name": "Velvet Touch Foundation",
+      "price": 23.99,
       "id": 1
-    },
-    {
-      "name": "Silky Finish Powder",
-      "price": 18.99,
-      "id": 2
-    },
-    {
-      "name": "Peach Glow Blush",
-      "price": 17.49,
-      "id": 3
     }
   ],
   "orders": [
@@ -1822,56 +1812,6 @@
         }
       ],
       "id": 1
-    },
-    {
-      "username": "Aia",
-      "userId": 10,
-      "OrderId": 2,
-      "OrderDate": "1/7/2026, 12:54:57 AM",
-      "OrderStatus": "Processing Order",
-      "products": [
-        {
-          "name": "Velvet Touch Foundation",
-          "price": 23.99,
-          "id": 1
-        },
-        {
-          "name": "Silk Matte Foundation",
-          "price": 24.99,
-          "id": 2
-        },
-        {
-          "name": "Silk Matte Foundation",
-          "price": 24.99,
-          "id": 3
-        },
-        {
-          "name": "Velvet Touch Foundation",
-          "price": 23.99,
-          "id": 4
-        },
-        {
-          "name": "Air Light Foundation",
-          "price": 22.99,
-          "id": 5
-        }
-      ],
-      "id": 2
-    },
-    {
-      "username": "Aia",
-      "userId": 10,
-      "OrderId": 3,
-      "OrderDate": "1/7/2026, 12:56:08 AM",
-      "OrderStatus": "Processing Order",
-      "products": [
-        {
-          "name": "Silk Matte Foundation",
-          "price": 24.99,
-          "id": 1
-        }
-      ],
-      "id": 3
     }
   ],
   "wishlist": [
