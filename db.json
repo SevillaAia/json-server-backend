@@ -33,7 +33,6 @@
       "id": 13
     }
   ],
-  
   "category": [
     {
       "id": 1,
@@ -45,7 +44,6 @@
     },
     {
       "id": 3,
-
       "name": "Powder"
     },
     {
@@ -95,7 +93,7 @@
       "shadeCount": 20,
       "description": "Matte foundation with smooth, long-lasting coverage.",
       "rating": 4.6,
-      "stockCount": 45,
+      "stockCount": 44,
       "inStock": true,
       "image": "/images/sochic/foundation_silk_matte.jpg",
       "createdAt": "2025-01-11"
@@ -109,7 +107,7 @@
       "shadeCount": 18,
       "description": "Hydrating foundation for radiant skin.",
       "rating": 4.7,
-      "stockCount": 38,
+      "stockCount": 37,
       "inStock": true,
       "image": "/images/sochic/foundation_hydra_glow.jpg",
       "createdAt": "2025-01-11"
@@ -123,7 +121,7 @@
       "shadeCount": 16,
       "description": "Soft velvet finish with buildable coverage.",
       "rating": 4.5,
-      "stockCount": 30,
+      "stockCount": 29,
       "inStock": true,
       "image": "/images/sochic/foundation_velvet_touch.jpg",
       "createdAt": "2025-01-11"
@@ -137,7 +135,7 @@
       "shadeCount": 14,
       "description": "Lightweight foundation for everyday wear.",
       "rating": 4.4,
-      "stockCount": 28,
+      "stockCount": 27,
       "inStock": true,
       "image": "/images/sochic/foundation_air_light.jpg",
       "createdAt": "2025-01-11"
@@ -151,7 +149,7 @@
       "shadeCount": 22,
       "description": "Professional full-coverage foundation.",
       "rating": 4.8,
-      "stockCount": 35,
+      "stockCount": 34,
       "inStock": true,
       "image": "/images/sochic/foundation_full_cover.jpg",
       "createdAt": "2025-01-11"
@@ -1767,20 +1765,14 @@
       "createdAt": "2025-01-11"
     }
   ],
-  "carts": [
-    {
-      "name": "Velvet Touch Foundation",
-      "price": 23.99,
-      "id": 1
-    }
-  ],
+  "carts": [],
   "orders": [
     {
       "username": "Aia",
       "userId": 10,
       "OrderId": 1,
       "OrderDate": "1/6/2026, 1:28:37 AM",
-      "OrderStatus": "Processing Order",
+      "OrderStatus": "In Transit",
       "products": [
         {
           "name": "Hydra Glow Foundation",
@@ -1814,6 +1806,41 @@
         }
       ],
       "id": 1
+    },
+    {
+      "username": "admin",
+      "userId": 11,
+      "OrderId": 2,
+      "OrderDate": "1/8/2026, 5:08:52 PM",
+      "OrderStatus": "Processing Order",
+      "products": [
+        {
+          "name": "Velvet Touch Foundation",
+          "price": 23.99,
+          "id": 1
+        },
+        {
+          "name": "Velvet Touch Foundation",
+          "price": 23.99,
+          "id": 2
+        },
+        {
+          "name": "Air Light Foundation",
+          "price": 22.99,
+          "id": 3
+        },
+        {
+          "name": "Hydra Glow Foundation",
+          "price": 26.99,
+          "id": 4
+        },
+        {
+          "name": "Radiance Boost Foundation",
+          "price": 27.99,
+          "id": 5
+        }
+      ],
+      "id": 2
     }
   ],
   "wishlist": [
