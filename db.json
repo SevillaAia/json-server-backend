@@ -34,7 +34,7 @@
     }
   ],
   
-  "categories": [
+  "category": [
     {
       "id": 1,
       "name": "Foundation"
